@@ -24,7 +24,7 @@ url: "https://hallowf.github.io" # the base hostname & protocol for your site, e
 github_username:  hallowf
 
 # Build settings
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
