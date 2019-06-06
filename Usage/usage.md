@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Usage
-has_children: true
 permalink: /usage/
 nav_order: 2
+has_children: true
+has_toc: false
 ---
 
 # Usage

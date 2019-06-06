@@ -26,6 +26,12 @@ github_username:  hallowf
 # Build settings
 remote_theme: pmarsceill/just-the-docs
 
+# Theme settings
+search_enabled: true
+aux_links:
+    "STPDF on GitHub":
+      - "//github.com/hallowf/STPDF"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
