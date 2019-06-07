@@ -2,7 +2,7 @@
 layout: page
 title: Custom Themes
 parent: Customization
-permalink: /custom-themes/
+permalink: /customization/custom-themes/
 nav_order: 1
 ---
 

@@ -59,3 +59,12 @@ Tesseract will also need to be in the environment PATH variable, to check it is 
 if it displays info and it's arguments then it's working
 
 
+### Localization
+
+This app is currently available in 3 languages:
+  * English
+  * Portuguese
+  * Spanish
+
+
+if you would like to help with the translation please see [contributing](customization/contributing/)

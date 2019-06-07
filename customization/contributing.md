@@ -2,6 +2,6 @@
 layout: page
 title: Contributing
 parent: Customization
-permalink: /contributing/
+permalink: /customization/contributing/
 nav_order: 2
 ---
