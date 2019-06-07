@@ -18,6 +18,8 @@ PDF's, custom themes and more ....
 
 ### Custom themes
 
+![](https://github.com/hallowf/STPDF-docs/tree/master/assets/imgs/themes.png)
+
 You can easily create a theme to override the colors of the interface, the app comes with 3 default themes,
 1. the "default" one is with everything default some colors might vary depending on your system
 2. the "STPDF-dark.ini" is a simple dark theme
