@@ -8,7 +8,6 @@ permalink: /
 nav_order: 1
 ---
 
-
 # STPDF - ScanToPDF
 
 ScanToPDF is an app that will allow you to easily make PDF's of image scans,
