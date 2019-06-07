@@ -7,6 +7,17 @@ title: Home
 permalink: /
 nav_order: 1
 ---
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-100382035-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-100382035-4');
+</script>
+
+
 # STPDF - ScanToPDF
 
 ScanToPDF is an app that will allow you to easily make PDF's of image scans,
