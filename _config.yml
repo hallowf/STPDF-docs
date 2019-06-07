@@ -31,6 +31,11 @@ aux_links:
     "STPDF on GitHub":
       - "//github.com/hallowf/STPDF"
 
+ga_tracking: UA-100382035-4
+
+plugins:
+  - jekyll-seo-tag
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
