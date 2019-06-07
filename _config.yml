@@ -22,7 +22,7 @@ url: "https://hallowf.github.io" # the base hostname & protocol for your site, e
 github_username:  hallowf
 
 # Build settings
-remote_theme: pmarsceill/just-the-docs
+theme: just-the-docs
 
 # Theme settings
 search_enabled: true
@@ -31,6 +31,13 @@ aux_links:
       - "//github.com/hallowf/STPDF"
 
 ga_tracking: UA-100382035-4
+
+# SEO tag stuff
+social:
+  name: hallowf
+  links:
+    - https://www.facebook.com/Hallows.Tech.Lab/
+    - https://www.instagram.com/hallowstechlab/
 
 plugins:
   - jekyll-seo-tag
