@@ -18,7 +18,26 @@ PDF's, custom themes and more ....
 
 ### Custom themes
 
-![](https://github.com/hallowf/STPDF-docs/tree/master/assets/imgs/themes.png)
+<img class="themeSlide" src="assets/imgs/theme-cmder.png">
+<img class="themeSlide" src="assets/imgs/theme-dark.png">
+<img class="themeSlide" src="assets/imgs/theme-default.png">
+
+<script>
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("themeSlide");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1} 
+        x[slideIndex-1].style.display = "block"; 
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+</script>
 
 You can easily create a theme to override the colors of the interface, the app comes with 3 default themes,
 1. the "default" one is with everything default some colors might vary depending on your system
@@ -27,6 +46,10 @@ You can easily create a theme to override the colors of the interface, the app c
 
 
 ### Deskewing images
+
+<img style="display: inline-block; width:200px; heigth:200px" src="assets/imgs/down.png">
+<img style="display: inline-block; width:200px; heigth:200px" src="assets/imgs/up.png">
+
 
 Altough ScanToPDF has the ability to deskew images it can't do it withouth [Tesseract](https://github.com/tesseract-ocr/tesseract),
 and tesseract is not shipped with the app, if you are on linux you can just install it with your package manager

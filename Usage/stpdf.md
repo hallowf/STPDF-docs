@@ -31,9 +31,18 @@ if not it makes a list of all images to copy and copies them over
 ### Menu
 
 * App
-    1. Save <- Saves your settings, shortcut ("ctrl+s")
-    2. Exit <- Exit the app
+    * Save <- Saves your settings, shortcut ("ctrl+s")
+    * Exit <- Exit the app
 
 * Options
-    1. Settings <- Opens settings window, shortcut ("ctrl+o")
-    2. Help <- Link to this docs
+    * Settings <- Opens settings window, shortcut ("ctrl+o")
+    * Help/About <- Link to this docs
+
+
+### Settings
+
+1. Language <- Language of the app
+2. Theme <- Theme of the app
+3. Console log level <- This is only for debugging purposes
+4. Keep values <- Stores your parameters, Source, Dest, etc, in a file and loads it on startup
+5. Apply settings <- This saves your settings if you make changes and close the window before applying your changes, they will be discarded
