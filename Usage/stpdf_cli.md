@@ -2,7 +2,7 @@
 layout: page
 title: STPDF-core
 parent: Usage
-permalink: /usage/stpdf-core/
+permalink: /usage/stpdf-cli/
 nav_order: 2
 ---
 

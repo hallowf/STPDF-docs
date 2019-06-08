@@ -2,7 +2,7 @@
 layout: page
 title: STPDF-GUI
 parent: Usage
-permalink: /usage/stpdf/
+permalink: /usage/stpdf-gui/
 nav_order: 1
 ---
 
