@@ -7,12 +7,24 @@ title: Home
 permalink: /
 nav_order: 1
 ---
+<div style="text-align: center">
+    <img style="margin: auto; width: 200px; height: 200px;" src="assets/imgs/stpdf-horizontal-win.ico">
+</div>
+{: .v-align-middle }
 
 # STPDF - ScanToPDF
 
 ScanToPDF is an app that will allow you to easily make PDF's of image scans,
 it supports a wide variety of feature like deskew image *(removes rotation), spliting into multiple
 PDF's, custom themes and more ....
+
+
+## Upcoming features
+
+1. Ability to control the "Split at:" slider values in the interface
+2. Option for skipping file copy and just instantly save them to a pdf saving a lot of time depending on the quantity of images
+3. Option to only copy the files over and not make a pdf with them
+
 
 
 ## Features
@@ -48,8 +60,8 @@ You can easily create a theme to override the colors of the interface, the app c
 
 ### Deskewing images
 
-<img style="display: inline-block; width:200px; heigth:200px" src="assets/imgs/down.png">
-<img style="display: inline-block; width:200px; heigth:200px" src="assets/imgs/up.png">
+<img style="display: inline-block; width:200px; height:300px" src="assets/imgs/down.png">
+<img style="display: inline-block; width:200px; height:300px" src="assets/imgs/up.png">
 
 
 Altough ScanToPDF has the ability to deskew images it can't do it withouth [Tesseract](https://github.com/tesseract-ocr/tesseract),
@@ -58,6 +70,8 @@ on windows you can find installers [here](https://github.com/UB-Mannheim/tessera
 
 Tesseract will also need to be in the environment PATH variable, to check it is available just open up a command line and type tesseract,
 if it displays info and it's arguments then it's working
+
+**If you are having trouble doing this please visit the [help](help/) section**
 
 
 ### Localization
