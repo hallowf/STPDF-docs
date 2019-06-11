@@ -14,7 +14,12 @@ Tesseract is required to be installed on your system for the app to be able to d
 Tesseract is an OCR (Optical character recognition) engine developed by google, it is not shipped by default with this app, however it is also open-source, and you can easily install it in linux or windows
 
 ### STPDF is free and open-source, it is built with [Python](https://www.python.org/) and [PyQt5](https://www.riverbankcomputing.com/software/pyqt/intro)
-It is available in 2 different versions STPDF and STPDF-core
+It is available in 2 different versions STPDF-GUI and STPDF-CLI
+
+Tested on:
+ * Windows 7
+ * Linux / debian requires qt
+
 
 
 #### STPDF was developed by:
