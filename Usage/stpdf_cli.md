@@ -1,6 +1,6 @@
 ---
 layout: page
-title: STPDF-core
+title: STPDF-CLI
 parent: Usage
 permalink: /usage/stpdf-cli/
 nav_order: 2
