@@ -27,7 +27,7 @@ Or support on [Patreon](https://www.patreon.com/hallowf)
 
 #### Translations
 
-There are a lot of languages STPDF currently does not support if you would like to help wit the translations please visit [this](customization/contributing/) page
+There are a lot of languages STPDF currently does not support if you would like to help wit the translations please visit [this](contributing/) page
 
 #### Code
 
