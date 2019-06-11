@@ -3,7 +3,7 @@ layout: page
 title: Debugging
 parent: Help
 permalink: /help/debugging/
-nav_order: 2
+nav_order: 3
 ---
 
 ## Debugging

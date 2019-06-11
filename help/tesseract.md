@@ -12,17 +12,12 @@ nav_order: 1
  * Download the one that fits your machine 32bit/64bit
 
 2. Go trough the installer and if you would like it to work with more languages download the additional language packs
-
-<div style="text-align: center">
-    <img style="display: inline-block; width: 300px; height: 300px" src="/STPDF-docs/assets/imgs/tesseract-langs.png">
-</div>
+    * <div style="text-align: center"><img style="display: inline-block; width: 400px; height: 300px" src="/STPDF-docs/assets/imgs/tesseract-langs.png"></div>
 
 3. Then it will ask you where to install it is important you remember the location you will need it for later
- * I installed mine to C:\Tesseract-OCR but you can choose the default location, just note it down
+    * I installed mine to C:\Tesseract-OCR but you can choose the default location, just note it down
 
-<div style="text-align: center">
-    <img style="display: inline-block; width: 300px; height: 300px" src="/STPDF-docs/assets/imgs/tesseract-install.png">
-</div>
+    * <div style="text-align: center"><img style="display: inline-block; width: 400px; height: 300px" src="/STPDF-docs/assets/imgs/tesseract-install.png"></div>
 
 4. Now you will need to add it to your PATH environment variable
  * Open the windows menu, right click on "computer" left click on properties
@@ -35,8 +30,11 @@ nav_order: 1
  * Now you add ";TESSERACT_PATH", where TESSERACT_PATH is the install location, don't forget the semicolon before
  * You might need to restart your system or refresh your environment, but after this you should be able to call tesseract from the command line
 
+5. Verify it is installed
+
+    * <div style="text-align: center"><img style="display: inline-block; width: 600px; height: 300px" src="/STPDF-docs/assets/imgs/tesseract-installed.gif"></div>
+
 ## Debian
 
-The only thing you need to do
-
-<code>sudo apt install tesseract-ocr -y</code>
+1. <code>sudo apt install tesseract-ocr -y</code>
+2. verify it is installed ...
