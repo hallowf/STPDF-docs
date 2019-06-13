@@ -1,4 +1,4 @@
-You can easily create a theme to override the colors of the interface, the app comes with 3 default themes,
-1. the "default" one is with everything default some colors might vary depending on your system
-2. the "STPDF-dark.ini" is a simple dark theme
-3. the "STPDF-cmder.ini" a theme inspired in [cmder](https://cmder.net/)
+Pode facilmente criar um tema para sobrepor as cores originais da interface, a aplicação vem com 3 temas predefinidos:
+1. O "Default" cores originais da aplicação pode variar dependendo do sistema
+2. "STPDF-dark.ini" um tema escuro simples
+3. "STPDF-cmder.ini" um tema inspirado em [cmder](https://cmder.net/)

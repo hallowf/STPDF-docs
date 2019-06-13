@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Usage
+title: titles.usage
 permalink: /usage/
 nav_order: 2
 has_children: true

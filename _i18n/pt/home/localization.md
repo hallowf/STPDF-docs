@@ -1,9 +1,9 @@
 ### Localization
 
-This app is currently available in 3 languages:
-  * English
-  * Portuguese
-  * Spanish
+Esta aplicação de momento está disponível em 3 línguas:
+  * Inglês
+  * Português
+  * Espanhol
 
 
-if you would like to help with the translation please see [contributing](customization/contributing/)
+Se gostarias de ajudar com a tradução por favor visita [Contribuindo](customization/contributing/)

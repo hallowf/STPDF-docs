@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Debugging
-parent: Help
+title: titles.debugging
+parent: titles.help
 permalink: /help/debugging/
 nav_order: 3
 ---

@@ -1,8 +1,8 @@
 ---
 layout: about
-title: About
+title: titles.about
 permalink: /about/
 nav_order: 4
 ---
 
-{% tf templates/about.md %}
+{% tf about.md %}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Customization
+title: titles.customization
 has_children: true
 permalink: /customization/
 nav_order: 3

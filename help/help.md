@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Help
+title: titles.help
 permalink: /help/
 nav_order: 5
 has_toc: false

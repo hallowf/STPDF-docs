@@ -1,6 +1,6 @@
 ---
 layout: page
-title: STPDF-Core
+title: titles.stpdf_core
 parent: Usage
 permalink: /usage/stpdf-core/
 nav_order: 3

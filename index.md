@@ -4,12 +4,12 @@
 
 layout: default
 permalink: /
-title: Home
+title: titles.home
 nav_order: 1
 ---
 
 <div style="text-align: center">
-    <img style="margin: auto; width: 200px; height: 200px;" src="{{ "assets/imgs/stpdf-horizontal-win.ico" | prepend: site.baseurl_root}}">
+    <img style="margin: auto; width: 200px; height: 200px;" src="{{ "/assets/imgs/stpdf-horizontal-win.ico" | prepend: site.baseurl_root}}">
 </div>
 {: .v-align-middle }
 
@@ -19,13 +19,13 @@ nav_order: 1
 
 
 
-## {% t titles.features %}
+## {% t headers.features %}
 
-### {% t titles.custom_themes %}
+### {% t headers.custom_themes %}
 
-<img class="themeSlide" src="{{ "assets/imgs/theme-cmder.png" | prepend: site.baseurl_root }}">
-<img class="themeSlide" src="{{ "assets/imgs/theme-dark.png" | prepend: site.baseurl_root }}">
-<img class="themeSlide" src="{{ "assets/imgs/theme-default.png" | prepend: site.baseurl_root }}">
+<img class="themeSlide" src="{{ "/assets/imgs/theme-cmder.png" | prepend: site.baseurl_root }}">
+<img class="themeSlide" src="{{ "/assets/imgs/theme-dark.png" | prepend: site.baseurl_root }}">
+<img class="themeSlide" src="{{ "/assets/imgs/theme-default.png" | prepend: site.baseurl_root }}">
 
 <script>
     var slideIndex = 0;
@@ -47,10 +47,10 @@ nav_order: 1
 {% tf home/custom_themes.md %}
 
 
-### {% t titles.deskew %}
+### {% t headers.deskew %}
 
-<img style="display: inline-block; width:200px; height:300px" src="{{"assets/imgs/down.png" | prepend: site.baseurl_root}}">
-<img style="display: inline-block; width:200px; height:300px" src="{{"assets/imgs/up.png" | prepend: site.baseurl_root}}">
+<img style="display: inline-block; width:200px; height:300px" src="{{"/assets/imgs/down.png" | prepend: site.baseurl_root}}">
+<img style="display: inline-block; width:200px; height:300px" src="{{"/assets/imgs/up.png" | prepend: site.baseurl_root}}">
 
 
 {% tf home/deskew.md %}

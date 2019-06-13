@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contributing
-parent: Customization
+title: titles.contributing
+parent: titles.customization
 permalink: /customization/contributing/
 nav_order: 2
 ---

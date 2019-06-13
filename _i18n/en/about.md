@@ -16,4 +16,4 @@ Tested on:
 
 
 #### STPDF was developed by:
- * **[Alexandre Cortegaca](https://github.com/hallowf)**
+ * **[Alexandre Cortegaça](https://github.com/hallowf)**

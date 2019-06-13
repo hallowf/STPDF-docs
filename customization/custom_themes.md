@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Custom Themes
-parent: Customization
+title: titles.custom_themes
+parent: titles.customization
 permalink: /customization/custom-themes/
 nav_order: 1
 ---

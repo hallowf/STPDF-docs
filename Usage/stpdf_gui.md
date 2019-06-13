@@ -1,7 +1,7 @@
 ---
 layout: page
-title: STPDF-GUI
-parent: Usage
+title: titles.stpdf_gui
+parent: titles.usage
 permalink: /usage/stpdf-gui/
 nav_order: 1
 ---

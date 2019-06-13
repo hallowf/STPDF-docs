@@ -1,7 +1,7 @@
 ---
 layout: page
-title: App performance
-parent: Help
+title: titles.performance
+parent: titles.help
 permalink: /help/app-performance/
 nav_order: 2
 ---

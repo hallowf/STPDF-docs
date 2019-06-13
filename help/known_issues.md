@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Known issues
-parent: Help
+title: titles.issues
+parent: titles.help
 permalink: /help/known-issues/
 nav_order: 4
 ---

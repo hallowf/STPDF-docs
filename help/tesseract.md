@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Installing tesseract
-parent: Help
+title: titles.tesseract
+parent: titles.help
 permalink: /help/tesseract/
 nav_order: 1
 ---
