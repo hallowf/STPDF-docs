@@ -59,8 +59,8 @@
     "id": "8",
     "title": "titles.home",
     "content": "STPDF - ScanToPDF ScanToPDF é uma app que permite criar facilmente PDF’s a partir de scans, suporta uma ampla variedade de características como corrigir o alinhamento das imagens, dividir os scans por multiplos PDF’s, temas customizáveis e mais …. Upcoming features Ability to control the “Split at:” slider values in the interface Option for skipping file copy and just instantly save them to a pdf saving a lot of time depending on the quantity of images Option to only copy the files over and not make a pdf with them Funcionalidades Temas costumizáveis Pode facilmente criar um tema para sobrepor as cores originais da interface, a aplicação vem com 3 temas predefinidos: O “Default” cores originais da aplicação pode variar dependendo do sistema “STPDF-dark.ini” um tema escuro simples “STPDF-cmder.ini” um tema inspirado em cmder Correção de inclinação das imagens Apesar de ScanToPDF ter a habilidade de corrigir o alinhamento das imagens, não o consegue fazer sem Tesseract, e Tesseract não vem incluído com STPDF, se estiver em linux facilmente o instala com o “apt”, em windows poderá encontrar instaladores aqui Tesseract também requer que a respetiva directoria de instalação seja adicionada à variável de ambiente PATH, para verificar que Tesseract está disponìvel no seu sistema, abra uma linha de commandos e escreva tesseract, se aparecer informação sobre o programa então está instalado Se tiver problemas com este passo por favor visite a secção Ajuda* Localization Esta aplicação de momento está disponível em 3 línguas: Inglês Português Espanhol Se gostarias de ajudar com a tradução por favor visita Contribuindo",
-    "url": "https://hallowf.github.io/STPDF-docs/pt/",
-    "relUrl": "/"
+    "url": "https://hallowf.github.io/STPDF-docs/pt/home/",
+    "relUrl": "/home/"
   },
   "9": {
     "id": "9",
@@ -103,6 +103,13 @@
     "content": "Usage STPDF-gui This is the GUI (Graphical User Interface) version of the app, the GUI serves as a bridge between STPDF-core and the user STPDF-cli This is the CLI (Command Line Interface) version of the app, the CLI serves as a bridge between STPDF-core and the user STPDF-core This is the “core” of the app all of the main logic lies here, this is only used as an internal module.",
     "url": "https://hallowf.github.io/STPDF-docs/pt/usage/",
     "relUrl": "/usage/"
+  },
+  "15": {
+    "id": "15",
+    "title": "Notes:",
+    "content": "Notes: If it fails to run locally use on console chcp 65001 Changes to the head and nav to localize menu titles can be seen in commit#a336c5530ca766f036c958992f94b83c84ad14e2 modifying the head and nav in _includes also produces the following warning: Missing i18n key: pt:node.title Using translation &#39;&#39; from default language: en Missing i18n key: pt:node.title Using translation &#39;&#39; from default language: en ......... however everything seems to get translated at least locally",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/",
+    "relUrl": "/"
   }
   
 }
