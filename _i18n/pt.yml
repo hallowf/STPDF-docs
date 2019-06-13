@@ -2,12 +2,10 @@ global:
   portuguese: Português
   english: Inglês
 
-pages:
-  home: Home
-  about: Sobre
-  help: Ajuda
-
 titles:
-  features: Funcionalidades
-  custom_themes: Temas costumizáveis
-  deskew: Correção de inclinação das imagens
+  home: "Home"
+  about: "Sobre"
+  help: "Ajuda"
+  features: "Funcionalidades"
+  custom_themes: "Temas costumizáveis"
+  deskew: "Correção de inclinação das imagens"

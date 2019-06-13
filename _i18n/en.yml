@@ -2,12 +2,10 @@ global:
   portuguese: Portuguese
   english: English
 
-pages:
-  home: Home
-  about: About
-  help: Help
-
 titles:
-  features: Features
-  custom_themes: Custom themes
-  deskew: Deskewing images
+  home: "Home"
+  about: "About"
+  help: "Help"
+  features: "Features"
+  custom_themes: "Custom themes"
+  deskew: "Deskewing images"
