@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-permalink: /
+permalink: /home/
 title: titles.home
 nav_order: 1
 ---
