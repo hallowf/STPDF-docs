@@ -3,10 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: pages.home
 permalink: /
+title: Home
 nav_order: 1
 ---
+
 <div style="text-align: center">
     <img style="margin: auto; width: 200px; height: 200px;" src="{{ "assets/imgs/stpdf-horizontal-win.ico" | prepend: site.baseurl_root}}">
 </div>
