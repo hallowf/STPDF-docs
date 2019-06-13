@@ -253,7 +253,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-feed (~> 0.6)
   jekyll-multiple-languages-plugin
   jekyll-seo-tag
   just-the-docs
