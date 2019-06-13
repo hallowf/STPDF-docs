@@ -1,1 +1,0 @@
-### Avoiding unnecessary operations

@@ -1,3 +1,0 @@
-# STPDF - ScanToPDF
-
-ScanToPDF é uma app que permite criar facilmente PDF's a partir de scans, suporta uma ampla variedade de características como corrigir o alinhamento das imagens, dividir os scans por multiplos PDF's, temas customizáveis e mais ....
