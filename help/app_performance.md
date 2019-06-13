@@ -7,4 +7,3 @@ nav_order: 2
 ---
 
 {% tf help/app_performance.md %}
-

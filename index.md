@@ -8,25 +8,31 @@ title: titles.home
 nav_order: 1
 ---
 
+<!-- language switcher -->
+
+<!-- logo -->
 <div style="text-align: center">
     <img style="margin: auto; width: 200px; height: 200px;" src="{{ "/assets/imgs/stpdf-horizontal-win.ico" | prepend: site.baseurl_root}}">
 </div>
 {: .v-align-middle }
 
+<!-- stpdf -->
 {% tf home/stpdf.md %}
 
+<!-- upcoming features -->
 {% tf home/up_features.md %}
 
-
-
+<!-- features -->
 ## {% t headers.features %}
 
 ### {% t headers.custom_themes %}
 
+<!-- theme immages -->
 <img class="themeSlide" src="{{ "/assets/imgs/theme-cmder.png" | prepend: site.baseurl_root }}">
 <img class="themeSlide" src="{{ "/assets/imgs/theme-dark.png" | prepend: site.baseurl_root }}">
 <img class="themeSlide" src="{{ "/assets/imgs/theme-default.png" | prepend: site.baseurl_root }}">
 
+<!-- script to make carousel of themeSlide images -->
 <script>
     var slideIndex = 0;
     carousel();
@@ -46,14 +52,11 @@ nav_order: 1
 
 {% tf home/custom_themes.md %}
 
-
 ### {% t headers.deskew %}
 
 <img style="display: inline-block; width:200px; height:300px" src="{{"/assets/imgs/down.png" | prepend: site.baseurl_root}}">
 <img style="display: inline-block; width:200px; height:300px" src="{{"/assets/imgs/up.png" | prepend: site.baseurl_root}}">
 
-
 {% tf home/deskew.md %}
-
 
 {% tf home/localization.md %}
