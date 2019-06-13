@@ -1,0 +1,108 @@
+{
+  "0": {
+    "id": "0",
+    "title": "",
+    "content": "404 Page not found :( The requested page could not be found.",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/404.html",
+    "relUrl": "/404.html"
+  },
+  "1": {
+    "id": "1",
+    "title": "titles.about",
+    "content": "Aviso legal: Todas as outras marcas comerciais e registradas são propriedade de seus respectivos donos. Tesseract É necessário ter Tesseract instalado no seu sistema para que a aplicação consiga proceder à correção de inclinação das imagens. Tesseract é um mecanismo de reconhecimento óptico de caracteres atualmente desenvolvido pelo google, não vem incluido com STPDF, no entanto tambem é de código aberto, e facilmente instalado tanto em windows como em linux STPDF é gratuìto e de código aberto, é desenvolvido com Python e PyQt5 Está dísponivel em 2 versões STPDF-GUI e STPDF-CLI Testado em: Windows 7 Linux / debian requer qt STPDF foi desenvolvido por: Alexandre Cortegaça",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/about/",
+    "relUrl": "/about/"
+  },
+  "2": {
+    "id": "2",
+    "title": "titles.performance",
+    "content": "Avoiding unnecessary operations",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/help/app-performance/",
+    "relUrl": "/help/app-performance/"
+  },
+  "3": {
+    "id": "3",
+    "title": "titles.contributing",
+    "content": "Contributing Feel free to contribute in any way you can Follow HallowsTechLab on social media: Facebook Instagram Or support on Patreon Translations There are a lot of languages STPDF currently does not support if you would like to help with the translations please visit this page Code Is there a new feature you would like to implement or maybe some way you can optimize the app? Feel free to see the code-contributing guide",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/customization/contributing/",
+    "relUrl": "/customization/contributing/"
+  },
+  "4": {
+    "id": "4",
+    "title": "titles.custom_themes",
+    "content": "Creating custom themes Duplicate one of the existing themes and rename it to anything you want, just make sure the extension is “.ini” and avoid weird characters EX: STPDF-mytheme.ini mytheme.ini randomTheme.ini Now open that file with a text editor and just replace the values with your own But how does it work ? [Theme] Each parameter here takes 3 values RGB (red,gree,blue) values need to be from 0 to 255 the commas need to separate the values window=122,122,122 [COLOR_EXTRAS] There are only two possibilities here: lighter &lt;- Makes a lighter shade of the color darker &lt;- Makes a darker shade of the color window=lighter background=darker If you don’t want to make it lighter or darker just pass not_defined or undefined window=undefined",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/customization/custom-themes/",
+    "relUrl": "/customization/custom-themes/"
+  },
+  "5": {
+    "id": "5",
+    "title": "titles.customization",
+    "content": "Creating custom themes Creating a custom theme for this app can be really easy, it can be done in a few steps Contributing There is various way you could contribute to this app, click here to find out more",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/customization/",
+    "relUrl": "/customization/"
+  },
+  "6": {
+    "id": "6",
+    "title": "titles.debugging",
+    "content": "Debugging STPDF-gui The graphical user interface itself isn’t great for understanding what’s going wrong, but on the settings page you can set the log level, if you switch it to debug and run the app in the console you will see a lot of output that might help you To run the program from the console simply open up a console navigate to it’s location and just type STPDF.exe STPDF-cli Since you are already running the program from the console you can specify the log level in optional arguments",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/help/debugging/",
+    "relUrl": "/help/debugging/"
+  },
+  "7": {
+    "id": "7",
+    "title": "titles.help",
+    "content": "Installing tesseract A step by step tutorial on getting tesseract setup on windows and Linus/Debian App running slow Why or what is making the app slow Debugging Is something not working as expected, or maybe the whole app is misbehaving? Known issues Here you will find known issues with the app",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/help/",
+    "relUrl": "/help/"
+  },
+  "8": {
+    "id": "8",
+    "title": "titles.home",
+    "content": "STPDF - ScanToPDF ScanToPDF é uma app que permite criar facilmente PDF’s a partir de scans, suporta uma ampla variedade de características como corrigir o alinhamento das imagens, dividir os scans por multiplos PDF’s, temas customizáveis e mais …. Upcoming features Ability to control the “Split at:” slider values in the interface Option for skipping file copy and just instantly save them to a pdf saving a lot of time depending on the quantity of images Option to only copy the files over and not make a pdf with them Funcionalidades Temas costumizáveis Pode facilmente criar um tema para sobrepor as cores originais da interface, a aplicação vem com 3 temas predefinidos: O “Default” cores originais da aplicação pode variar dependendo do sistema “STPDF-dark.ini” um tema escuro simples “STPDF-cmder.ini” um tema inspirado em cmder Correção de inclinação das imagens Apesar de ScanToPDF ter a habilidade de corrigir o alinhamento das imagens, não o consegue fazer sem Tesseract, e Tesseract não vem incluído com STPDF, se estiver em linux facilmente o instala com o “apt”, em windows poderá encontrar instaladores aqui Tesseract também requer que a respetiva directoria de instalação seja adicionada à variável de ambiente PATH, para verificar que Tesseract está disponìvel no seu sistema, abra uma linha de commandos e escreva tesseract, se aparecer informação sobre o programa então está instalado Se tiver problemas com este passo por favor visite a secção Ajuda* Localization Esta aplicação de momento está disponível em 3 línguas: Inglês Português Espanhol Se gostarias de ajudar com a tradução por favor visita Contribuindo",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/",
+    "relUrl": "/"
+  },
+  "9": {
+    "id": "9",
+    "title": "titles.issues",
+    "content": "Know issues Some images when deskewed end up sideways there is not enough info to understand why this happens Must be investigated",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/help/known-issues/",
+    "relUrl": "/help/known-issues/"
+  },
+  "10": {
+    "id": "10",
+    "title": "titles.stpdf_cli",
+    "content": "Usage: this is only applies if you are using the command line tool",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/usage/stpdf-cli/",
+    "relUrl": "/usage/stpdf-cli/"
+  },
+  "11": {
+    "id": "11",
+    "title": "titles.stpdf_core",
+    "content": "Under the hood So The first thing the “core-module” does after you’ve passed your input trough the GUI or CLI is check the number of files in the source directory and subsequent folders Then it starts to “process” them one by one and what is this process? First it creates a list(list1) of all files in the directory Now for each file in the list1 If the file has a know extension(PNG,JPG) then read it into a list(list2) in memory: If deskew(remove rotation) is true then Get the output rotation from tesseract providing the image in list2 Rotate the image and overwrite the old one in memory If save files is true then it saves it to the output directory and skips to the next image in list1 Else Append the image to the list2 And once again if save files is true it saves it to the output directory Final step is to make a pdf For image in list2 If split into multiple PDF’s is true Modify the list into a list(list2 but modified) of lists with the image handles For list in list2 Get the first item/image in the list and save it as a PDF Remove that entry from the list and append all the other images to the PDF But do you need all these steps? Some are optional and disabling might help speed up the whole process, let’s say: you only want to deskew images then disable make pdf in the gui you only want the PDF(s) not the rotated images then disable image copy you can learn more about this in App performance",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/usage/stpdf-core/",
+    "relUrl": "/usage/stpdf-core/"
+  },
+  "12": {
+    "id": "12",
+    "title": "titles.stpdf_gui",
+    "content": "Usage How it works You will need to provide it with the directory of all the scans, and a directory to copy the files over, STPDF does not touch your original files so make sure you have the required disk space. Then the app starts searching trough that directory and subsequent folders, when it finds an image, if deskew is checked, the image is rotated and saved directly to the destination if not it makes a list of all images to copy and copies them over About the parameters Source: Directory dialog &lt;- This is the location of your scans Destination: Directory dialog &lt;- The destination to copy the files over Deskew: checkbox &lt;- Removes rotation from your scans, this requires tesseract it will be locked if you don’t have it on your system Split scans: checkbox &lt;- This allows you to split your scans into multiple PDF’s Split at: slider &lt;- Defines how many scans per PDF Show values: button &lt;- Shows all your current values and settings Clean log: button &lt;- Cleans the log on the right side Run: button &lt;- Starts STPDF-core Menu App Save &lt;- Saves your settings, shortcut (“ctrl+s”) Exit &lt;- Exit the app Options Settings &lt;- Opens settings window, shortcut (“ctrl+o”) Help/About &lt;- Link to this docs Settings Language &lt;- Language of the app Theme &lt;- Theme of the app Console log level &lt;- This is only for debugging purposes Keep values &lt;- Stores your parameters, Source, Dest, etc, in a file and loads it on startup Apply settings &lt;- This saves your settings if you make changes and close the window before applying your changes, they will be discarded",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/usage/stpdf-gui/",
+    "relUrl": "/usage/stpdf-gui/"
+  },
+  "13": {
+    "id": "13",
+    "title": "titles.tesseract",
+    "content": "Windows So first you grab an installer from here Download the one that fits your machine 32bit/64bit Go trough the installer and if you would like it to work with more languages download the additional language packs Then it will ask you where to install it is important you remember the location you will need it for later I installed mine to C: Tesseract-OCR but you can choose the default location, just note it down Now you will need to add it to your PATH environment variable Open the windows menu, right click on “computer” left click on properties Then on your right should be Advanced system settings, click there A new window should appear, click on Environment Variables A new window should appear again, on the top are your user environment variables Locate on that top part the PATH variable click on it and select edit Now where it says value of the variable be carefull to not delete stuff might break other apps, simply press the end key (or use the arrows) and you should be at the end Now you add “;TESSERACT_PATH”, where TESSERACT_PATH is the install location, don’t forget the semicolon before You might need to restart your system or refresh your environment, but after this you should be able to call tesseract from the command line Verify it is installed Debian sudo apt install tesseract-ocr -y verify it is installed …",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/help/tesseract/",
+    "relUrl": "/help/tesseract/"
+  },
+  "14": {
+    "id": "14",
+    "title": "titles.usage",
+    "content": "Usage STPDF-gui This is the GUI (Graphical User Interface) version of the app, the GUI serves as a bridge between STPDF-core and the user STPDF-cli This is the CLI (Command Line Interface) version of the app, the CLI serves as a bridge between STPDF-core and the user STPDF-core This is the “core” of the app all of the main logic lies here, this is only used as an internal module.",
+    "url": "https://hallowf.github.io/STPDF-docs/pt/usage/",
+    "relUrl": "/usage/"
+  }
+  
+}
