@@ -55,12 +55,4 @@ nav_order: 1
 {% tf home/deskew.md %}
 
 
-### Localization
-
-This app is currently available in 3 languages:
-  * English
-  * Portuguese
-  * Spanish
-
-
-if you would like to help with the translation please see [contributing](customization/contributing/)
+{% tf home/localization.md %}
