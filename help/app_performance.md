@@ -6,5 +6,5 @@ permalink: /help/app-performance/
 nav_order: 2
 ---
 
-### Avoiding unnecessary operations
+{% tf help/app_performance.md %}
 
