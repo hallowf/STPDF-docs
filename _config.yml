@@ -32,6 +32,11 @@ aux_links:
 
 ga_tracking: UA-100382035-4
 
+# Jekyll-multiple-languages plugin settings
+languages: ["en", "pt"]
+exclude_from_localizations: ["assets", "js", "imgs"]
+
+
 # SEO tag stuff
 social:
   name: hallowf
