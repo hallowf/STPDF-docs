@@ -8,7 +8,29 @@ title: titles.home
 nav_order: 1
 ---
 
+<style type="text/css">
+.l_list {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+.l_list_items {
+    margin: auto;
+    text-decoration: none;
+}
+.l_list_items:hover {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+
 <!-- language switcher -->
+<ul class="l_list">
+    <a href="{{ "/home" | prepend: site.baseurl_root }}" class="l_list_items">{% t global.english %}</a>
+    <a href="{{ "/pt/home" | prepend: site.baseurl_root }}" class="l_list_items">{% t global.portuguese %}</a>
+</ul>
 
 <!-- logo -->
 <div style="text-align: center">
