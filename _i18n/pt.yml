@@ -3,6 +3,9 @@ global:
   english: Inglês
   toc: "Tabela de conteúdos"
   search: "Pesquisa"
+  uses: "Este site utiliza "
+  jtd: " um tema do jekyll para documentação"
+  language: "Língua"
 
 titles:
   home: "Home"

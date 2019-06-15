@@ -25,13 +25,6 @@ nav_order: 1
     cursor: pointer;
 }
 </style>
-
-<!-- language switcher -->
-<ul class="l_list">
-    <a href="{{ "/home" | prepend: site.baseurl_root }}" class="l_list_items">{% t global.english %}</a>
-    <a href="{{ "/pt/home" | prepend: site.baseurl_root }}" class="l_list_items">{% t global.portuguese %}</a>
-</ul>
-
 <!-- logo -->
 <div style="text-align: center">
     <img style="margin: auto; width: 200px; height: 200px;" src="{{ "/assets/imgs/stpdf-horizontal-win.ico" | prepend: site.baseurl_root}}">

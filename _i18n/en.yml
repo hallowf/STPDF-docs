@@ -3,6 +3,9 @@ global:
   english: English
   toc: "Table of contents"
   search: "Search"
+  uses: "This site uses "
+  jtd: " a documentation theme for Jekyll"
+  language: "Language"
 
 titles:
   home: "Home"
