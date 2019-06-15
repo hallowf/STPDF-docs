@@ -24,6 +24,30 @@
       </script>
       <script async src="https://www.google-analytics.com/analytics.js"></script>
     
+
+    <!-- Language switcher -->
+    <script>
+      window.onload = function() {
+        let lang = document.getElementById("languageSwitches")
+        lang.value = "pt"
+      }
+    </script>
+    <script>
+      function languageSwitcher() {
+        let lang = document.getElementById("languageSwitches")
+        let baseurlRoot = window.origin
+        if (lang.value !== "en") {
+          let newUrl = baseurlRoot + "/STPDF-docs/" + lang.value + "/home"
+          // console.log(newUrl)
+          window.location.href = newUrl    
+        }
+        else {
+          let newUrl = baseurlRoot + "/STPDF-docs/home"
+          // console.log(newUrl)
+          window.location.href = newUrl
+        }
+      }
+    </script>
   
     
       <script type="text/javascript" src="/STPDF-docs/assets/js/vendor/lunr.min.js"></script>
@@ -33,9 +57,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Notes: | STPDF</title>
+<title>This is mostly notes that’s why this page is unlisted and not translated | STPDF</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Notes:" />
+<meta property="og:title" content="This is mostly notes that’s why this page is unlisted and not translated" />
 <meta property="og:locale" content="pt" />
 <meta name="description" content="STPDF allows you to easily create PDFs from scanned images, it can also deskew images (removes image rotation), It is free and open-source." />
 <meta property="og:description" content="STPDF allows you to easily create PDFs from scanned images, it can also deskew images (removes image rotation), It is free and open-source." />
@@ -43,7 +67,7 @@
 <meta property="og:url" content="https://hallowf.github.io/STPDF-docs/pt/" />
 <meta property="og:site_name" content="STPDF" />
 <script type="application/ld+json">
-{"url":"https://hallowf.github.io/STPDF-docs/pt/","headline":"Notes:","sameAs":["https://www.facebook.com/Hallows.Tech.Lab/","https://www.instagram.com/hallowstechlab/"],"description":"STPDF allows you to easily create PDFs from scanned images, it can also deskew images (removes image rotation), It is free and open-source.","name":"hallowf","@type":"WebSite","@context":"http://schema.org"}</script>
+{"url":"https://hallowf.github.io/STPDF-docs/pt/","headline":"This is mostly notes that’s why this page is unlisted and not translated","sameAs":["https://www.facebook.com/Hallows.Tech.Lab/","https://www.instagram.com/hallowstechlab/"],"description":"STPDF allows you to easily create PDFs from scanned images, it can also deskew images (removes image rotation), It is free and open-source.","name":"hallowf","@type":"WebSite","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -277,7 +301,19 @@
 </nav>
       </div>
       <footer role="contentinfo" class="site-footer">
-        <p class="text-small text-grey-dk-000 mb-0">This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.</p>
+        <div class="mb-0">
+          <span>Língua:</span>
+          <select id="languageSwitches" onChange="languageSwitcher()">
+            
+              <!-- <script>console.log("Languages:","en")</script> -->
+              <option>en</option>
+            
+              <!-- <script>console.log("Languages:","pt")</script> -->
+              <option>pt</option>
+            
+          </select>
+        </div>
+        <p class="text-small text-grey-dk-000 mb-0">Este site utiliza  <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>,  um tema do jekyll para documentação.</p>
       </footer>
     </div>
     <div class="main-content-wrap js-main-content" tabindex="0">
@@ -286,8 +322,8 @@
           
           <div class="search js-search">
             <div class="search-input-wrap">
-              <input type="text" class="js-search-input search-input" tabindex="0" placeholder="Search STPDF" aria-label="Search STPDF" autocomplete="off">
-              <svg width="14" height="14" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" class="search-icon"><title>Search</title><g fill-rule="nonzero"><path d="M17.332 20.735c-5.537 0-10-4.6-10-10.247 0-5.646 4.463-10.247 10-10.247 5.536 0 10 4.601 10 10.247s-4.464 10.247-10 10.247zm0-4c3.3 0 6-2.783 6-6.247 0-3.463-2.7-6.247-6-6.247s-6 2.784-6 6.247c0 3.464 2.7 6.247 6 6.247z"/><path d="M11.672 13.791L.192 25.271 3.02 28.1 14.5 16.62z"/></g></svg>
+              <input type="text" class="js-search-input search-input" tabindex="0" placeholder="Pesquisa STPDF" aria-label="Pesquisa STPDF" autocomplete="off">
+              <svg width="14" height="14" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" class="search-icon"><title>Pesquisa</title><g fill-rule="nonzero"><path d="M17.332 20.735c-5.537 0-10-4.6-10-10.247 0-5.646 4.463-10.247 10-10.247 5.536 0 10 4.601 10 10.247s-4.464 10.247-10 10.247zm0-4c3.3 0 6-2.783 6-6.247 0-3.463-2.7-6.247-6-6.247s-6 2.784-6 6.247c0 3.464 2.7 6.247 6 6.247z"/><path d="M11.672 13.791L.192 25.271 3.02 28.1 14.5 16.62z"/></g></svg>
             </div>
             <div class="js-search-results search-results-wrap"></div>
           </div>
@@ -304,17 +340,19 @@
       <div class="main-content">
         
         <div id="main-content" class="page-content" role="main">
-          
+          <h2 id="this-is-mostly-notes-thats-why-this-page-is-unlisted-and-not-translated"><strong>This is mostly notes that’s why this page is unlisted and not translated</strong></h2>
+<h2 id="development-notes">Development notes:</h2>
+
 <h3 id="notes">Notes:</h3>
 
-<p><strong>If it fails to run locally use on console <code class="highlighter-rouge">chcp 65001</code></strong></p>
+<p><strong>If it fails to run locally on windows use on console <code class="highlighter-rouge">chcp 65001</code></strong></p>
 
 <ol>
   <li>Changes to the head and nav to localize menu titles can be seen in <a href="https://github.com/hallowf/STPDF-docs/commit/a336c5530ca766f036c958992f94b83c84ad14e2">commit#a336c5530ca766f036c958992f94b83c84ad14e2</a></li>
   <li>modifying the head and nav in _includes also produces the following warning:
     <ul>
       <li><code class="highlighter-rouge">Missing i18n key: pt:node.title Using translation '' from default language: en Missing i18n key: pt:node.title Using translation '' from default language: en .........</code></li>
-      <li>however everything seems to get translated at least locally</li>
+      <li>however everything seems to get translated</li>
     </ul>
   </li>
 </ol>

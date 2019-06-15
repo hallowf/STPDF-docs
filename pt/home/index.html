@@ -24,6 +24,30 @@
       </script>
       <script async src="https://www.google-analytics.com/analytics.js"></script>
     
+
+    <!-- Language switcher -->
+    <script>
+      window.onload = function() {
+        let lang = document.getElementById("languageSwitches")
+        lang.value = "pt"
+      }
+    </script>
+    <script>
+      function languageSwitcher() {
+        let lang = document.getElementById("languageSwitches")
+        let baseurlRoot = window.origin
+        if (lang.value !== "en") {
+          let newUrl = baseurlRoot + "/STPDF-docs/" + lang.value + "/home"
+          // console.log(newUrl)
+          window.location.href = newUrl    
+        }
+        else {
+          let newUrl = baseurlRoot + "/STPDF-docs/home"
+          // console.log(newUrl)
+          window.location.href = newUrl
+        }
+      }
+    </script>
   
     
       <script type="text/javascript" src="/STPDF-docs/assets/js/vendor/lunr.min.js"></script>
@@ -277,7 +301,19 @@
 </nav>
       </div>
       <footer role="contentinfo" class="site-footer">
-        <p class="text-small text-grey-dk-000 mb-0">This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.</p>
+        <div class="mb-0">
+          <span>Língua:</span>
+          <select id="languageSwitches" onChange="languageSwitcher()">
+            
+              <!-- <script>console.log("Languages:","en")</script> -->
+              <option>en</option>
+            
+              <!-- <script>console.log("Languages:","pt")</script> -->
+              <option>pt</option>
+            
+          </select>
+        </div>
+        <p class="text-small text-grey-dk-000 mb-0">Este site utiliza  <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>,  um tema do jekyll para documentação.</p>
       </footer>
     </div>
     <div class="main-content-wrap js-main-content" tabindex="0">
@@ -286,8 +322,8 @@
           
           <div class="search js-search">
             <div class="search-input-wrap">
-              <input type="text" class="js-search-input search-input" tabindex="0" placeholder="Search STPDF" aria-label="Search STPDF" autocomplete="off">
-              <svg width="14" height="14" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" class="search-icon"><title>Search</title><g fill-rule="nonzero"><path d="M17.332 20.735c-5.537 0-10-4.6-10-10.247 0-5.646 4.463-10.247 10-10.247 5.536 0 10 4.601 10 10.247s-4.464 10.247-10 10.247zm0-4c3.3 0 6-2.783 6-6.247 0-3.463-2.7-6.247-6-6.247s-6 2.784-6 6.247c0 3.464 2.7 6.247 6 6.247z"/><path d="M11.672 13.791L.192 25.271 3.02 28.1 14.5 16.62z"/></g></svg>
+              <input type="text" class="js-search-input search-input" tabindex="0" placeholder="Pesquisa STPDF" aria-label="Pesquisa STPDF" autocomplete="off">
+              <svg width="14" height="14" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" class="search-icon"><title>Pesquisa</title><g fill-rule="nonzero"><path d="M17.332 20.735c-5.537 0-10-4.6-10-10.247 0-5.646 4.463-10.247 10-10.247 5.536 0 10 4.601 10 10.247s-4.464 10.247-10 10.247zm0-4c3.3 0 6-2.783 6-6.247 0-3.463-2.7-6.247-6-6.247s-6 2.784-6 6.247c0 3.464 2.7 6.247 6 6.247z"/><path d="M11.672 13.791L.192 25.271 3.02 28.1 14.5 16.62z"/></g></svg>
             </div>
             <div class="js-search-results search-results-wrap"></div>
           </div>
@@ -306,7 +342,23 @@
           
         
         <div id="main-content" class="page-content" role="main">
-          <!-- language switcher -->
+          <style type="text/css">
+.l_list {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+.l_list_items {
+    margin: auto;
+    text-decoration: none;
+}
+.l_list_items:hover {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
 
 <!-- logo -->
 <div style="text-align: center" class="v-align-middle">
@@ -357,7 +409,7 @@
 
 <p>Pode facilmente criar um tema para sobrepor as cores originais da interface, a aplicação vem com 3 temas predefinidos:</p>
 <ol>
-  <li>O “Default” cores originais da aplicação pode variar dependendo do sistema</li>
+  <li>“Default” cores originais da aplicação pode variar dependendo do sistema</li>
   <li>“STPDF-dark.ini” um tema escuro simples</li>
   <li>“STPDF-cmder.ini” um tema inspirado em <a href="https://cmder.net/">cmder</a></li>
 </ol>
