@@ -1,6 +1,8 @@
 global:
   portuguese: Português
   english: Inglês
+  toc: "Tabela de conteúdos"
+  search: "Pesquisa"
 
 titles:
   home: "Home"

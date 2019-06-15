@@ -1,6 +1,8 @@
 global:
   portuguese: Portuguese
   english: English
+  toc: "Table of contents"
+  search: "Search"
 
 titles:
   home: "Home"
