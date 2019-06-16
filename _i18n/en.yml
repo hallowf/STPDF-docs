@@ -1,4 +1,5 @@
 global:
+  translations: ["en", "pt"]
   portuguese: Portuguese
   english: English
   toc: "Table of contents"

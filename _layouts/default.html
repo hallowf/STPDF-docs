@@ -15,9 +15,9 @@
         <div class="mb-0">
           <span>{% t global.language %}:</span>
           <select id="languageSwitches" onChange="languageSwitcher()">
-            {% for lang in site.translations %}
-              <!-- <script>console.log("Languages:",{{ lang[0] | jsonify }})</script> -->
-              <option>{{ lang[0] }}</option>
+            {% for lang in site.langs %}
+              <!-- <script>console.log("Languages:","{{ lang }}")</script> -->
+              <option>{{ lang }}</option>
             {% endfor %}
           </select>
         </div>

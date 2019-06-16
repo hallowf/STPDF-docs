@@ -6,4 +6,4 @@ This app is currently available in 3 languages:
   * Spanish
 
 
-if you would like to help with the translation please see [contributing](customization/contributing/)
+if you would like to help with the translation please see [contributing](../customization/contributing/)
