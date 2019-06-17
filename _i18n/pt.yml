@@ -23,6 +23,8 @@ titles:
   stpdf_gui: "STPDF-GUI"
   stpdf_cli: "STPDF-CLI"
   stpdf_core: "STPDF-Core"
+  privacy: "Política de privacidade"
+  terms: "Termos e condições"
 
 headers:
   features: "Funcionalidades"
