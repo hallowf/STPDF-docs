@@ -6,4 +6,4 @@ Esta aplicação de momento está disponível em 3 línguas:
   * Espanhol
 
 
-Se gostarias de ajudar com a tradução por favor visita [Contribuindo](../customization/contributing/)
+Se gostaria de ajudar com a tradução por favor visite a secção [Contribuindo](../customization/contributing/)
