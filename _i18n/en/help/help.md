@@ -1,6 +1,10 @@
+[Installing STPDF](stpdf/)
+
+Installing STPDF can be really easy, the releases can be found [here](https://github.com/hallowf/STPDF/releases)
+
 [Installing tesseract](tesseract/)
 
-A step by step tutorial on getting tesseract setup on windows and Linus/Debian
+A step by step tutorial on getting tesseract setup on windows and Linux/Debian
 
 [App running slow](app-performance/)
 

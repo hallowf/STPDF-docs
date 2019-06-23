@@ -1,0 +1,2 @@
+
+STPDF does not require an installer and is also portable you can find the latest release [here](https://github.com/hallowf/STPDF/releases), just download the latest version appropriate for your system and extract it to your desired location and run it

@@ -1,0 +1,2 @@
+
+STPDF não requer ser instalado, logo pode ser colocado em qualquer sitio que desejar, fazendo dele portátil, a última versão pode ser encontrada [aqui](https://github.com/hallowf/STPDF/releases), faça download da versão apropriada do seu sistema, e extraia o arquivo para a localização desejada

@@ -13,6 +13,7 @@ titles:
   about: "About"
   help: "Help"
   usage: "Usage"
+  stpdf: "Installing STPDF"
   tesseract: "Installing tesseract"
   debugging: "Debugging"
   issues: "Known issues"

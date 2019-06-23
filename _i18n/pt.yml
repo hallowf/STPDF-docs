@@ -13,6 +13,7 @@ titles:
   about: "Sobre"
   help: "Ajuda"
   usage: "Guia"
+  stpdf: "Instalando STPDF"
   tesseract: "Instalando tesseract"
   debugging: "Depuração"
   issues: "Problemas"

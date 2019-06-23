@@ -1,15 +1,19 @@
+[Installing STPDF](stpdf/)
+
+Instalar STPDF é bastante fácil as versões dísponiveis podem ser encontradas [aqui](https://github.com/hallowf/STPDF/releases)
+
 [Installing tesseract](tesseract/)
 
-A step by step tutorial on getting tesseract setup on windows and Linus/Debian
+Um tutorial passo a passo de como instalar o tesseract no windows e no Linux/Debian
 
 [App running slow](app-performance/)
 
-Why or what is making the app slow
+Porquê ou o que é que está a fazer a aplicação lenta
 
 [Debugging](debugging/)
 
-Is something not working as expected, or maybe the whole app is misbehaving?
+Há algo a funcionar de maneira inesperada, ou a aplicação está a funcionar incorretamente
 
 [Known issues](known-issues/)
 
-Here you will find known issues with the app
+Aqui encontrará os problemas atuais da aplicação
