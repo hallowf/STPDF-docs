@@ -33,7 +33,7 @@ aux_links:
     "STPDF on GitHub":
       - "//github.com/hallowf/STPDF"
 
-ga_tracking: UA-100382035-4
+ga_tracking: UA-100382035-6
 
 # Jekyll-multiple-languages plugin settings
 languages: ["en", "pt"]
