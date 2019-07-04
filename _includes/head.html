@@ -9,7 +9,10 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', '{{ site.ga_tracking }}');
+        gtag('config', '{{ site.ga_tracking }}', {
+          'cookie_prefix': 'STPDFdocs',
+          'anonymize_ip': true
+        });
       </script>
     {% endif %}
 
