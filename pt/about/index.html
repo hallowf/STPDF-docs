@@ -18,6 +18,14 @@
   
     
     
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100382035-4"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());</script>
+    
+
+    <!-- 
       <script async src="https://www.google-analytics.com/analytics.js"></script>
       <script>
         window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};
@@ -25,7 +33,7 @@
         ga('create', 'UA-100382035-4', 'https://hallowf.github.io');
         ga('send', 'pageview');
       </script>
-    
+     -->
     
     <!-- Language switcher -->
     <script>
@@ -40,12 +48,10 @@
         let baseurlRoot = window.origin
         if (lang.value !== "en") {
           let newUrl = baseurlRoot + "/STPDF-docs/" + lang.value + "/home"
-          // console.log(newUrl)
           window.location.href = newUrl    
         }
         else {
           let newUrl = baseurlRoot + "/STPDF-docs/home"
-          // console.log(newUrl)
           window.location.href = newUrl
         }
       }
@@ -425,7 +431,10 @@
           
         
         <div id="main-content" class="page-content" role="main">
-          <h3 id="aviso-legal-todas-as-outras-marcas-comerciais-e-registradas-são-propriedade-de-seus-respectivos-donos">Aviso legal: Todas as outras marcas comerciais e registradas são propriedade de seus respectivos donos.</h3>
+          
+<script>gtag('config', 'UA-100382035-4', {'page_path': window.location.pathname})</script>
+
+<h3 id="aviso-legal-todas-as-outras-marcas-comerciais-e-registradas-são-propriedade-de-seus-respectivos-donos">Aviso legal: Todas as outras marcas comerciais e registradas são propriedade de seus respectivos donos.</h3>
 
 <h2 id="tesseract">Tesseract</h2>
 
