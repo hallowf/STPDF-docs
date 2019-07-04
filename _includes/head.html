@@ -11,19 +11,29 @@
       {% endif %}
     {% endif %}
   
-    <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl_root }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ '/favicon.ico' | prepend: site.baseurl_root }}" type="image/x-icon"/>
   
-    <link rel="stylesheet" href="{{ "/assets/css/just-the-docs.css" | prepend: site.baseurl_root }}">
+    <link rel="stylesheet" href="{{ '/assets/css/just-the-docs.css' | prepend: site.baseurl_root }}" />
   
+    
     {% if site.ga_tracking != nil %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
       <script>
-        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());</script>
+    {% endif %}
+
+    <!-- {% if site.ga_tracking != nil %}
+      <script async src="https://www.google-analytics.com/analytics.js"></script>
+      <script>
+        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};
+        ga.l=+new Date;
         ga('create', '{{ site.ga_tracking }}', '{{ site.url }}');
         ga('send', 'pageview');
       </script>
-      <script async src="https://www.google-analytics.com/analytics.js"></script>
-    {% endif %}
-
+    {% endif %} -->
+    
     <!-- Language switcher -->
     <script>
       window.onload = function() {
@@ -37,12 +47,10 @@
         let baseurlRoot = window.origin
         if (lang.value !== "en") {
           let newUrl = baseurlRoot + "/STPDF-docs/" + lang.value + "/home"
-          // console.log(newUrl)
           window.location.href = newUrl    
         }
         else {
           let newUrl = baseurlRoot + "/STPDF-docs/home"
-          // console.log(newUrl)
           window.location.href = newUrl
         }
       }
