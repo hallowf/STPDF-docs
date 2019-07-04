@@ -25,7 +25,7 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-100382035-4');
+        gtag('config', 'UA-100382035-4', {'page_path': window.location.pathname});
       </script>
     
 
@@ -444,11 +444,7 @@
           
         
         <div id="main-content" class="page-content" role="main">
-          <!-- Tag page view -->
-
-<script>gtag('config', 'UA-100382035-4', {'page_path': window.location.pathname})</script>
-
-<h3 id="under-the-hood">Under the hood</h3>
+          <h3 id="under-the-hood">Under the hood</h3>
 
 <p>So The first thing the “core-module” does after you’ve passed your input trough the GUI or CLI is check the number of files in the source directory and subsequent folders</p>
 
