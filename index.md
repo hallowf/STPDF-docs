@@ -8,12 +8,6 @@ title: titles.home
 nav_order: 1
 ---
 
-<!-- Tag page view -->
-{% if site.ga_tracking != nil %}
-<script>gtag('config', '{{ site.ga_tracking }}', {'page_path': window.location.pathname})</script>
-{% endif %}
-
-
 <style type="text/css">
 .l_list {
     list-style-type: none;
