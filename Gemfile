@@ -21,6 +21,9 @@ gem "github-pages", group: :jekyll_plugins
 ## SEO tag
 gem 'jekyll-seo-tag'
 
+# https://nvd.nist.gov/vuln/detail/CVE-2019-5477
+gem "nokogiri", ">= 1.10.4"
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-multiple-languages-plugin'
